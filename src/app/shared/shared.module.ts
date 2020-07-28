@@ -23,10 +23,6 @@ import { RangeSliderComponent } from './components/range-slider/range-slider.com
     MatButtonModule,
     MatSliderModule
   ],
-  exports: [
-    HeaderComponent,
-    SelectComponent,
-    RangeSliderComponent
-  ]
+  exports: [HeaderComponent, SelectComponent, RangeSliderComponent],
 })
-export class SharedModule { }
+export class SharedModule {}

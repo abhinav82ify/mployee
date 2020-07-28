@@ -6,5 +6,24 @@
   [searchable]="true"
   [(ngModel)]="selectedData"
   [labelForId]="label"
+  (change)="onModelChange()"
 >
+  <ng-template
+    ng-optgroup-tmp
+    let-item="item"
+    let-item$="item$"
+    let-index="index"
+  >
+    <input id="item-{{ index }}" type="checkbox" [ngModel]="item$.selected" />
+    {{ item }}
+  </ng-template>
+  <ng-template
+    ng-option-tmp
+    let-item="item"
+    let-item$="item$"
+    let-index="index"
+  >
+    <input id="item-{{ index }}" type="checkbox" [ngModel]="item$.selected" />
+    {{ item }}
+  </ng-template>
 </ng-select>

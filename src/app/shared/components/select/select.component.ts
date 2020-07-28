@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -9,14 +9,19 @@ import { Observable } from 'rxjs';
 export class SelectComponent implements OnInit {
   @Input() label: string = '';
   @Input() multiple: boolean = false;
-  @Input() selectData: string[];
+  @Input() selectData: any[];
+
+  @Output() change = new EventEmitter<any>();
 
   selectedData;
-  placeholder: string = `Select ${this.label}`;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onModelChange() {
+    this.change.emit(this.selectedData);
   }
 
 }

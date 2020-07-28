@@ -1,21 +1,27 @@
 <div>
   <label>{{ label }}</label>
   <div class="d-flex">
+    <div class="mpl-c-range-slider__min">
+      <mat-slider
+        color="primary"
+        [(ngModel)]="minValue"
+        [min]="min"
+        [max]="max / 2"
+        [step]="1"
+        class="p-0"
+        [thumbLabel]="true"
+        (change)="onRangeChange()"
+      ></mat-slider>
+    </div>
     <mat-slider
-      [(ngModel)]="minValue"
-      [min]="min"
-      [max]="max/2"
-      [step]="1"
-      class="p-0"
-      invert
-      [thumbLabel]="true"
-    ></mat-slider>
-    <mat-slider
+      color="primary"
       [(ngModel)]="maxValue"
-      [min]="max/2"
+      [min]="max / 2"
       [max]="max"
       [step]="1"
       class="p-0"
+      [thumbLabel]="true"
+      (change)="onRangeChange()"
     ></mat-slider>
   </div>
 </div>
