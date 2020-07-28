@@ -1,0 +1,21 @@
+<div>
+  <label>{{ label }}</label>
+  <div class="d-flex">
+    <mat-slider
+      [(ngModel)]="minValue"
+      [min]="min"
+      [max]="max/2"
+      [step]="1"
+      class="p-0"
+      invert
+      [thumbLabel]="true"
+    ></mat-slider>
+    <mat-slider
+      [(ngModel)]="maxValue"
+      [min]="max/2"
+      [max]="max"
+      [step]="1"
+      class="p-0"
+    ></mat-slider>
+  </div>
+</div>

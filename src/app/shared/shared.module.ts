@@ -1,24 +1,32 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './components/header/header.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgSelectModule } from '@ng-select/ng-select';
+import { FormsModule } from '@angular/forms';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSliderModule } from '@angular/material/slider';
+
+import { HeaderComponent } from './components/header/header.component';
+import { SelectComponent } from './components/select/select.component';
+import { RangeSliderComponent } from './components/range-slider/range-slider.component';
 
 @NgModule({
-  declarations: [HeaderComponent],
+  declarations: [HeaderComponent, SelectComponent, RangeSliderComponent],
   imports: [
     CommonModule,
-    BrowserAnimationsModule,
-    
+    FormsModule,
+    NgSelectModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSliderModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    SelectComponent,
+    RangeSliderComponent
   ]
 })
 export class SharedModule { }

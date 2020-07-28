@@ -1,5 +1,8 @@
-.spacer {
-  flex: 1 1 auto;
+@import '../../../../styles/tools';
+
+:host {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 14px;
 }
 
 .mpl-c-header {
@@ -8,6 +11,7 @@
 
   &__nav-items {
     a {
+      @include mpl-t-font;
       color: #f1f1f1;
     }
 

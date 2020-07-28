@@ -1,0 +1,39 @@
+<div class="mpl-c-employee-filter">
+  <p class="mpl-c-employee-filter__header">Filter by</p>
+  <div class="p-3" *ngIf="!isFilterCriteriaLoading">
+    <div class="mb-5">
+      <mpl-select
+        label="Technology"
+        [multiple]="true"
+        [selectData]="employeeFilterCriteria.technologies"
+      ></mpl-select>
+    </div>
+
+    <div class="mb-5">
+      <mpl-select
+        label="Skills"
+        [multiple]="true"
+        [selectData]="employeeFilterCriteria.skills"
+        class="mb-3"
+      ></mpl-select>
+    </div>
+
+    <div class="mb-5">
+      <mpl-range-slider
+        label="Total Experience"
+        [min]="0"
+        [max]="20"
+        class="mb-3"
+      ></mpl-range-slider>
+    </div>
+
+    <div class="mb-5">
+      <mpl-select
+        label="Location"
+        [multiple]="true"
+        [selectData]="employeeFilterCriteria.locations"
+        class="mb-3"
+      ></mpl-select>
+    </div>
+  </div>
+</div>

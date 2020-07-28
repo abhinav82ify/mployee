@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { SharedModule } from '@/app/shared/shared.module';
+import { HttpClientModule } from '@angular/common/http';
+import { FakeEndpointService } from '@/app/services/fake-endpoint/fake-endpoint.service';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 @NgModule({
   declarations: [
     AppComponent
@@ -14,6 +17,8 @@ import { SharedModule } from '@/app/shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(FakeEndpointService),
 
     SharedModule
   ],

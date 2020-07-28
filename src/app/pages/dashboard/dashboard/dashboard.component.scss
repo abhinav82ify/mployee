@@ -1,0 +1,23 @@
+:host {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.mpl-c-dashboard {
+  display: flex;
+  flex-grow: 1;
+
+  &__search-box {
+    border: 1px solid black;
+    background-color: #fff;
+  }
+
+  &__result-box {
+    border: 1px solid black;
+    background-color: #f1f1f1;
+  }
+}
