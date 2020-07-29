@@ -8,9 +8,8 @@ describe('RangeSliderComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RangeSliderComponent ]
-    })
-    .compileComponents();
+      declarations: [RangeSliderComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -21,5 +20,11 @@ describe('RangeSliderComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should emit values on range change', () => {
+    spyOn(component.rangeChange, 'emit');
+    component.onRangeChange();
+    expect(component.rangeChange.emit).toHaveBeenCalled();
   });
 });

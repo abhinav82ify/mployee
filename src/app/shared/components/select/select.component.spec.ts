@@ -8,9 +8,8 @@ describe('SelectComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SelectComponent ]
-    })
-    .compileComponents();
+      declarations: [SelectComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -21,5 +20,11 @@ describe('SelectComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should emit values on range change', () => {
+    spyOn(component.change, 'emit');
+    component.onModelChange();
+    expect(component.change.emit).toHaveBeenCalled();
   });
 });

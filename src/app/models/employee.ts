@@ -5,7 +5,7 @@ export interface Employee {
     skills: string[];
     availability: number;
     baseLocation: string;
-    currentLocation: string;
+    currentLocation?: string;
     openToRelocate: boolean;
     yearsOfExperience: number;
 }

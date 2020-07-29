@@ -18,7 +18,7 @@ import { EmployeeDetailsComponent } from '../employee-details/employee-details.c
 export class EmployeeListComponent extends UnsubscribeOnDestroyAdapter
   implements OnInit {
   private employeeFilterCriteria: EmployeeFilterCriteria = new EmployeeFilterCriteria();
-  private allEmployees: Employee[] = [];
+  allEmployees: Employee[] = [];
   filteredEmployees: Employee[] = [];
 
   displayedColumns: string[] = [

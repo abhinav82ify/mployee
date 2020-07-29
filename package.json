@@ -6,6 +6,7 @@
     "start": "ng serve --port 4300",
     "build": "ng build",
     "test": "ng test",
+    "unit": "ng test --code-coverage --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
