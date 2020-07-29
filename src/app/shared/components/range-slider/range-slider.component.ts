@@ -12,20 +12,17 @@ export class RangeSliderComponent implements OnInit {
 
   @Output() rangeChange = new EventEmitter<any>();
 
-  minValue;
-  maxValue;
+  @Input() selectedMin;
+  @Input() selectedMax;
 
   constructor() {}
 
-  ngOnInit(): void {
-    this.minValue = this.min;
-    this.maxValue = this.max;
-  }
+  ngOnInit(): void {}
 
   onRangeChange() {
     this.rangeChange.emit({
-      from: this.minValue,
-      to: this.maxValue,
+      from: this.selectedMin,
+      to: this.selectedMax,
     });
   }
 }

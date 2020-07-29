@@ -6,6 +6,7 @@
         label="Technology"
         [multiple]="true"
         [selectData]="employeeFilterCriteria.technologies"
+        [selectedData]="selectedEmployeeFilterCriteria.technologies"
         (change)="onTechnologyChange($event)"
       ></mpl-select>
     </div>
@@ -15,6 +16,7 @@
         label="Skills"
         [multiple]="true"
         [selectData]="employeeFilterCriteria.skills"
+        [selectedData]="selectedEmployeeFilterCriteria.skills"
         class="mb-3"
         (change)="onSkillsChange($event)"
       ></mpl-select>
@@ -25,6 +27,8 @@
         label="Total Experience"
         [min]="0"
         [max]="20"
+        [selectedMin]="selectedEmployeeFilterCriteria.minExperience"
+        [selectedMax]="selectedEmployeeFilterCriteria.maxExperience"
         class="mb-3"
         (rangeChange)="onExperienceChange($event)"
       ></mpl-range-slider>
@@ -35,13 +39,14 @@
         label="Location"
         [multiple]="true"
         [selectData]="employeeFilterCriteria.locations"
+        [selectedData]="selectedEmployeeFilterCriteria.locations"
         class="mb-3"
         (change)="onLocationChange($event)"
       ></mpl-select>
     </div>
 
     <div class="d-flex justify-content-end">
-      <button mat-flat-button>Cancel</button>
+      <button mat-flat-button (click)="resetFilters()">Cancel</button>
       <button mat-flat-button color="primary" (click)="filterEmployees()">
         Done
       </button>

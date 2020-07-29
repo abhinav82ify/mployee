@@ -13,7 +13,7 @@ export class SelectComponent implements OnInit {
 
   @Output() change = new EventEmitter<any>();
 
-  selectedData;
+  @Input() selectedData: any[] = [];
 
   constructor() { }
 
