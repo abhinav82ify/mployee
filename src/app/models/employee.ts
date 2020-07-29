@@ -7,4 +7,5 @@ export interface Employee {
     baseLocation: string;
     currentLocation: string;
     openToRelocate: boolean;
+    yearsOfExperience: number;
 }

@@ -1,1004 +1,1522 @@
 export const allEmployees = [
   {
-    name: 'Judye Clowton',
-    designation: 'UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UX'],
-    availability: 1,
-    baseLocation: 'Pune',
-    currentLocation: 'Bengaluru',
+    name: 'Faydra Eliasen',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Delhi',
+    currentLocation: 'Indore',
     openToRelocate: true,
+    yearsOfExperience: 5.6
   },
   {
-    name: 'Briggs Selly',
+    name: 'Dallas Mohammad',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Chennai',
+    openToRelocate: false,
+    yearsOfExperience: 13.3
+  },
+  {
+    name: 'Abigale Strowthers',
     designation: 'Associate UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI', 'UX'],
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Hyderabad',
+    openToRelocate: false,
+    yearsOfExperience: 5.6
+  },
+  {
+    name: 'Anatola Lokier',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
+    baseLocation: 'Hyderabad',
+    openToRelocate: false,
+    yearsOfExperience: 11.8
+  },
+  {
+    name: 'Bert Leveridge',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Hyderabad',
+    openToRelocate: false,
+    yearsOfExperience: 3.7
+  },
+  {
+    name: 'Jeni Harcourt',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Indore',
+    openToRelocate: true,
+    yearsOfExperience: 9
+  },
+  {
+    name: 'Artus Moscrop',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Chennai',
+    openToRelocate: false,
+    yearsOfExperience: 16.9
+  },
+  {
+    name: 'Thibaud Jozefowicz',
+    designation: 'UI Specialist',
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 1.8
+  },
+  {
+    name: 'Joni Rawlison',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Delhi',
+    openToRelocate: false,
+    yearsOfExperience: 12.6
+  },
+  {
+    name: 'Vernor O\'Fearguise',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Indore',
+    openToRelocate: false,
+    yearsOfExperience: 1.3
+  },
+  {
+    name: 'Gael Jewks',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
     availability: 2,
     baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: false,
+    openToRelocate: true,
+    yearsOfExperience: 16.7
   },
   {
-    name: 'Tomaso Beardshaw',
+    name: 'Dorie Hannan',
     designation: 'UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UX'],
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 3.7
+  },
+  {
+    name: 'Candy Palfree',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Hyderabad',
+    openToRelocate: true,
+    yearsOfExperience: 3.1
+  },
+  {
+    name: 'Chrisy Philps',
+    designation: 'UI Specialist',
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Mumbai',
+    currentLocation: 'Pune',
+    openToRelocate: false,
+    yearsOfExperience: 5.9
+  },
+  {
+    name: 'Benedicta Humblestone',
+    designation: 'UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Pune',
+    currentLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 8.4
+  },
+  {
+    name: 'Doti Coyte',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
+    openToRelocate: true,
+    yearsOfExperience: 5.7
+  },
+  {
+    name: 'Broddy Mosson',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 5.8
+  },
+  {
+    name: 'Darrell Headan',
+    designation: 'UI Specialist',
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Indore',
+    currentLocation: 'Indore',
+    openToRelocate: false,
+    yearsOfExperience: 2.1
+  },
+  {
+    name: 'Mayor Teligin',
+    designation: 'UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
+    baseLocation: 'Mumbai',
+    openToRelocate: false,
+    yearsOfExperience: 19.1
+  },
+  {
+    name: 'Avril Treasaden',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Delhi',
+    currentLocation: 'Pune',
+    openToRelocate: true,
+    yearsOfExperience: 6.4
+  },
+  {
+    name: 'Rodie Zold',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Gurgaon',
+    openToRelocate: true,
+    yearsOfExperience: 8.3
+  },
+  {
+    name: 'Nanny Chaudret',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Indore',
+    currentLocation: 'Chennai',
+    openToRelocate: false,
+    yearsOfExperience: 9.5
+  },
+  {
+    name: 'Brnaba Guerry',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Mumbai',
+    openToRelocate: false,
+    yearsOfExperience: 18.7
+  },
+  {
+    name: 'Nicky Seger',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Indore',
+    openToRelocate: false,
+    yearsOfExperience: 15.2
+  },
+  {
+    name: 'Lutero Cobleigh',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
     availability: 3,
     baseLocation: 'Indore',
     currentLocation: 'Pune',
-    openToRelocate: true,
-  },
-  {
-    name: 'Nedda Cudworth',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 4,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Indore',
     openToRelocate: false,
+    yearsOfExperience: 12.9
   },
   {
-    name: 'Fitz Metts',
+    name: 'Alix Robel',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Chennai',
+    currentLocation: 'Mumbai',
+    openToRelocate: false,
+    yearsOfExperience: 15.5
+  },
+  {
+    name: 'Tarra Perllman',
     designation: 'Senior UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 5,
-    baseLocation: 'Indore',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Reece Harken',
-    designation: 'Senior UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UX'],
-    availability: 6,
-    baseLocation: 'Pune',
-    currentLocation: 'Bengaluru',
-    openToRelocate: false,
-  },
-  {
-    name: 'Tony Veschambes',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UX'],
-    availability: 7,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Errick Ballham',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UX'],
-    availability: 8,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Kimbell Iczokvitz',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 9,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Peggie Bedson',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 10,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Celestine Webber',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UX'],
-    availability: 11,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Violet Baudins',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI'],
-    availability: 12,
-    baseLocation: 'Hyderabad',
-    currentLocation: 'Indore',
-    openToRelocate: true,
-  },
-  {
-    name: 'Ansel Borland',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UX'],
-    availability: 13,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Evelina Rivenzon',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI', 'UX'],
-    availability: 14,
-    baseLocation: 'Pune',
-    currentLocation: 'Indore',
-    openToRelocate: false,
-  },
-  {
-    name: 'Bob MacGauhy',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 15,
-    baseLocation: 'Pune',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Gurgaon',
     currentLocation: 'Bengaluru',
     openToRelocate: true,
+    yearsOfExperience: 5.8
   },
   {
-    name: 'Rachael Duckwith',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UX'],
-    availability: 16,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Sioux Huguet',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 17,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Alexi Samuels',
+    name: 'Zenia Allibone',
     designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UX'],
-    availability: 18,
-    baseLocation: 'Indore',
-    currentLocation: 'Hyderabad',
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Gurgaon',
     openToRelocate: true,
+    yearsOfExperience: 9.3
   },
   {
-    name: 'Glenn Donohoe',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI'],
-    availability: 19,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Pune',
-    openToRelocate: false,
-  },
-  {
-    name: 'Bondy Goodison',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI'],
-    availability: 20,
-    baseLocation: 'Indore',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Elihu Lymbourne',
+    name: 'Brana Jeaffreson',
     designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI'],
-    availability: 21,
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
     baseLocation: 'Hyderabad',
     currentLocation: 'Indore',
     openToRelocate: true,
+    yearsOfExperience: 3.4
   },
   {
-    name: 'Moria Moylane',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 22,
+    name: 'Diana Pray',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
     baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Horacio Figurski',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UX'],
-    availability: 23,
-    baseLocation: 'Pune',
-    currentLocation: null,
     openToRelocate: true,
+    yearsOfExperience: 13.6
   },
   {
-    name: 'Paquito Fossett',
-    designation: 'UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI', 'UX'],
-    availability: 24,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Indore',
-    openToRelocate: true,
-  },
-  {
-    name: 'Jessika Janaud',
-    designation: 'UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 25,
-    baseLocation: 'Indore',
-    currentLocation: 'Pune',
-    openToRelocate: false,
-  },
-  {
-    name: 'Modestia Berrigan',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI', 'UX'],
-    availability: 26,
-    baseLocation: 'Indore',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Kaine Worling',
+    name: 'Atlanta Rowler',
     designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 27,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: false,
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Chennai',
+    openToRelocate: true,
+    yearsOfExperience: 6.2
   },
   {
-    name: 'Corny Finch',
+    name: 'Georgeanne Stronack',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Delhi',
+    currentLocation: 'Pune',
+    openToRelocate: true,
+    yearsOfExperience: 5.2
+  },
+  {
+    name: 'Dierdre Niblett',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Delhi',
+    openToRelocate: true,
+    yearsOfExperience: 7.3
+  },
+  {
+    name: 'Clevey Jiggins',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Bengaluru',
+    openToRelocate: false,
+    yearsOfExperience: 18.8
+  },
+  {
+    name: 'Timmy Manketell',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Delhi',
+    openToRelocate: true,
+    yearsOfExperience: 12.2
+  },
+  {
+    name: 'Adelind McRoberts',
+    designation: 'UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Mumbai',
+    openToRelocate: false,
+    yearsOfExperience: 13.6
+  },
+  {
+    name: 'Shaina Revill',
+    designation: 'UI Specialist',
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Hyderabad',
+    currentLocation: 'Pune',
+    openToRelocate: true,
+    yearsOfExperience: 1.2
+  },
+  {
+    name: 'Yurik Bisset',
     designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 28,
-    baseLocation: 'Pune',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Hyderabad',
+    openToRelocate: false,
+    yearsOfExperience: 9.5
+  },
+  {
+    name: 'Tiena Dimberline',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Indore',
+    openToRelocate: true,
+    yearsOfExperience: 12.8
+  },
+  {
+    name: 'Peter Dance',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Delhi',
+    openToRelocate: false,
+    yearsOfExperience: 16
+  },
+  {
+    name: 'Jere McInerney',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Delhi',
     currentLocation: 'Hyderabad',
     openToRelocate: false,
+    yearsOfExperience: 12.4
   },
   {
-    name: 'Irvin Emeney',
+    name: 'Alexandrina Predohl',
     designation: 'Associate UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI'],
-    availability: 29,
-    baseLocation: 'Pune',
-    currentLocation: 'Bengaluru',
-    openToRelocate: false,
-  },
-  {
-    name: 'Lezlie Duckels',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI'],
-    availability: 30,
-    baseLocation: 'Hyderabad',
-    currentLocation: 'Indore',
-    openToRelocate: false,
-  },
-  {
-    name: 'Kaia Hardiker',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 31,
-    baseLocation: 'Pune',
-    currentLocation: 'Hyderabad',
-    openToRelocate: false,
-  },
-  {
-    name: 'Arch Coon',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 32,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Hyderabad',
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
+    baseLocation: 'Gurgaon',
     openToRelocate: true,
+    yearsOfExperience: 14.3
   },
   {
-    name: 'Gerrie Thornally',
+    name: 'Charmane Devaney',
     designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 33,
-    baseLocation: 'Pune',
-    currentLocation: 'Pune',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Gurgaon',
     openToRelocate: true,
+    yearsOfExperience: 0.7
   },
   {
-    name: 'Holly Starbeck',
+    name: 'Arlina Olle',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 3.2
+  },
+  {
+    name: 'Ansley Maren',
     designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI'],
-    availability: 34,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Quinn Kliemann',
-    designation: 'Lead UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI'],
-    availability: 35,
-    baseLocation: 'Pune',
-    currentLocation: 'Pune',
-    openToRelocate: false,
-  },
-  {
-    name: 'Kaine Binnell',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UX'],
-    availability: 36,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Indore',
-    openToRelocate: true,
-  },
-  {
-    name: 'Anallese McTeggart',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI'],
-    availability: 37,
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
     baseLocation: 'Indore',
-    currentLocation: 'Pune',
-    openToRelocate: true,
-  },
-  {
-    name: 'Kristan Vogeller',
-    designation: 'Associate UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI'],
-    availability: 38,
-    baseLocation: 'Pune',
-    currentLocation: 'Pune',
-    openToRelocate: true,
-  },
-  {
-    name: 'Eileen Glashby',
-    designation: 'Associate UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UX'],
-    availability: 39,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Janey Snalum',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 40,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
     openToRelocate: false,
+    yearsOfExperience: 1.5
   },
   {
-    name: 'Guendolen Bere',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 41,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Kissie Oliphard',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 42,
-    baseLocation: 'Hyderabad',
-    currentLocation: 'Indore',
-    openToRelocate: false,
-  },
-  {
-    name: 'Alisun Rudham',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UX'],
-    availability: 43,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Keir Woodier',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI', 'UX'],
-    availability: 44,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Jeremiah Weigh',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 45,
+    name: 'Karlee Raithby',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
     baseLocation: 'Indore',
-    currentLocation: null,
     openToRelocate: false,
+    yearsOfExperience: 15.8
   },
   {
-    name: 'Rosmunda Loges',
+    name: 'Lulita Flicker',
     designation: 'UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 46,
-    baseLocation: 'Hyderabad',
-    currentLocation: 'Indore',
-    openToRelocate: false,
-  },
-  {
-    name: 'Arlyne Glitherow',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 47,
-    baseLocation: 'Hyderabad',
-    currentLocation: 'Bengaluru',
-    openToRelocate: true,
-  },
-  {
-    name: 'Camala Giaomozzo',
-    designation: 'Senior UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 48,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Pune',
-    openToRelocate: true,
-  },
-  {
-    name: 'Roxy Sneesby',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI'],
-    availability: 49,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Jamima Drillot',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UX'],
-    availability: 50,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Prisca Lundy',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI'],
-    availability: 51,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Cassi Winscomb',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 52,
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
     baseLocation: 'Indore',
-    currentLocation: null,
     openToRelocate: true,
+    yearsOfExperience: 17.5
   },
   {
-    name: 'Barde Merredy',
-    designation: 'Lead UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UX'],
-    availability: 53,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Wesley Worsalls',
+    name: 'Joachim Rontree',
     designation: 'UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 54,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Gurgaon',
     openToRelocate: false,
+    yearsOfExperience: 1.5
   },
   {
-    name: 'Alleyn Fullun',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UX'],
-    availability: 55,
-    baseLocation: 'Pune',
-    currentLocation: 'Indore',
-    openToRelocate: false,
-  },
-  {
-    name: 'Dniren Cammock',
-    designation: 'UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI', 'UX'],
-    availability: 56,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Bealle de Almeida',
+    name: 'Beverlee Dye',
     designation: 'Associate UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 57,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Petr MacDonogh',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI'],
-    availability: 58,
-    baseLocation: 'Indore',
-    currentLocation: null,
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Chennai',
     openToRelocate: true,
+    yearsOfExperience: 16.3
   },
   {
-    name: 'Normand Dugmore',
-    designation: 'UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI'],
-    availability: 59,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Doe MacNeilly',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UX'],
-    availability: 60,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Juliana Blackborne',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI'],
-    availability: 61,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Garrett Barneveld',
+    name: 'Darci Lochran',
     designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI'],
-    availability: 62,
-    baseLocation: 'Pune',
-    currentLocation: 'Pune',
-    openToRelocate: true,
-  },
-  {
-    name: 'Marget Geall',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 63,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Gurgaon',
     openToRelocate: false,
+    yearsOfExperience: 17.3
   },
   {
-    name: 'Hubert Antrack',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 64,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Indore',
-    openToRelocate: false,
-  },
-  {
-    name: 'Fransisco Baumaier',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 65,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Pune',
-    openToRelocate: true,
-  },
-  {
-    name: 'Ogdon McCreery',
-    designation: 'Associate UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UX'],
-    availability: 66,
-    baseLocation: 'Indore',
-    currentLocation: 'Bengaluru',
-    openToRelocate: false,
-  },
-  {
-    name: 'Laina Brahan',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 67,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Esme Beckitt',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UX'],
-    availability: 68,
-    baseLocation: 'Hyderabad',
-    currentLocation: 'Hyderabad',
-    openToRelocate: false,
-  },
-  {
-    name: 'Andrei Ivashinnikov',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 69,
-    baseLocation: 'Pune',
-    currentLocation: 'Indore',
-    openToRelocate: false,
-  },
-  {
-    name: 'Candice Poulsum',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 70,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Antoni Viles',
-    designation: 'UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI'],
-    availability: 71,
-    baseLocation: 'Indore',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Wanids Flanaghan',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UX'],
-    availability: 72,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: "Esme O' Carrol",
+    name: 'Ange Storek',
     designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI'],
-    availability: 73,
-    baseLocation: 'Bengaluru',
-    currentLocation: 'Bengaluru',
-    openToRelocate: true,
-  },
-  {
-    name: 'Myrta Faivre',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 74,
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
     baseLocation: 'Pune',
-    currentLocation: null,
     openToRelocate: false,
+    yearsOfExperience: 4.3
   },
   {
-    name: 'Mechelle Yeld',
+    name: 'Tad Leveridge',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Mumbai',
+    openToRelocate: false,
+    yearsOfExperience: 2.3
+  },
+  {
+    name: 'Janetta Marven',
     designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UX'],
-    availability: 75,
-    baseLocation: 'Pune',
-    currentLocation: null,
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Gurgaon',
     openToRelocate: false,
+    yearsOfExperience: 15.8
   },
   {
-    name: 'Culver Darnody',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 76,
-    baseLocation: 'Pune',
-    currentLocation: 'Bengaluru',
-    openToRelocate: true,
-  },
-  {
-    name: 'Brittaney Iacobacci',
-    designation: 'Lead UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UX'],
-    availability: 77,
-    baseLocation: 'Indore',
-    currentLocation: 'Bengaluru',
-    openToRelocate: true,
-  },
-  {
-    name: 'Indira Aykroyd',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 78,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Charmaine Taffurelli',
+    name: 'Maia Huntress',
     designation: 'UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI'],
-    availability: 79,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: false,
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 0.7
   },
   {
-    name: 'Polly McManamon',
+    name: 'Mathe Warboys',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Mumbai',
+    currentLocation: 'Delhi',
+    openToRelocate: false,
+    yearsOfExperience: 4.4
+  },
+  {
+    name: 'Nicolis Davidescu',
     designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 80,
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
     baseLocation: 'Pune',
-    currentLocation: 'Indore',
     openToRelocate: false,
+    yearsOfExperience: 11.6
   },
   {
-    name: 'Randy Speachley',
-    designation: 'Lead UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 81,
+    name: 'Kathryn MacKniely',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Indore',
+    openToRelocate: false,
+    yearsOfExperience: 13.8
+  },
+  {
+    name: 'Madonna Thiem',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
     baseLocation: 'Bengaluru',
-    currentLocation: 'Bengaluru',
     openToRelocate: false,
+    yearsOfExperience: 9.6
   },
   {
-    name: 'Carolin Furley',
-    designation: 'Associate UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 82,
+    name: 'Monro Dunican',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
     baseLocation: 'Hyderabad',
-    currentLocation: 'Indore',
-    openToRelocate: true,
+    openToRelocate: false,
+    yearsOfExperience: 10.6
   },
   {
-    name: 'Stewart Slater',
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UI', 'UX'],
-    availability: 83,
-    baseLocation: 'Pune',
+    name: 'Kenna Rewan',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Mumbai',
     currentLocation: 'Hyderabad',
     openToRelocate: true,
+    yearsOfExperience: 5.6
   },
   {
-    name: 'Mady Hasslocher',
-    designation: 'Senior UI Specialist',
-    technologies: ['React', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 84,
-    baseLocation: 'Pune',
-    currentLocation: 'Indore',
-    openToRelocate: false,
-  },
-  {
-    name: 'Zelda Fontin',
-    designation: 'UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 85,
-    baseLocation: 'Indore',
-    currentLocation: null,
-    openToRelocate: false,
-  },
-  {
-    name: 'Donella Faulconer',
+    name: 'Luciano Rann',
     designation: 'Associate UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 86,
-    baseLocation: 'Pune',
-    currentLocation: null,
-    openToRelocate: false,
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Gurgaon',
+    openToRelocate: true,
+    yearsOfExperience: 13.2
   },
   {
-    name: 'Rock Emmins',
-    designation: 'UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI', 'UX'],
-    availability: 87,
+    name: 'Livy Maulkin',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
     baseLocation: 'Bengaluru',
-    currentLocation: 'Hyderabad',
-    openToRelocate: true,
+    currentLocation: 'Chennai',
+    openToRelocate: false,
+    yearsOfExperience: 7.1
   },
   {
-    name: 'Stacy Shieber',
+    name: 'Jeremias Snowdon',
     designation: 'UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI'],
-    availability: 88,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: true,
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Gurgaon',
+    openToRelocate: false,
+    yearsOfExperience: 15.6
   },
   {
-    name: 'Tyne Toomer',
+    name: 'Betsy Fernant',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Delhi',
+    openToRelocate: false,
+    yearsOfExperience: 9
+  },
+  {
+    name: 'Angelica Zecchetti',
     designation: 'Lead UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 89,
-    baseLocation: 'Hyderabad',
-    currentLocation: null,
-    openToRelocate: true,
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Gurgaon',
+    openToRelocate: false,
+    yearsOfExperience: 10.8
   },
   {
-    name: "Perl O' Scollee",
-    designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI', 'UX'],
-    availability: 90,
-    baseLocation: 'Bengaluru',
+    name: 'Jojo Kilrow',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Hyderabad',
     currentLocation: 'Pune',
     openToRelocate: false,
+    yearsOfExperience: 17.8
   },
   {
-    name: 'Minerva Parres',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UX'],
-    availability: 91,
-    baseLocation: 'Hyderabad',
+    name: 'Annemarie Mair',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
     currentLocation: 'Hyderabad',
     openToRelocate: false,
+    yearsOfExperience: 15.8
   },
   {
-    name: 'Brook Schroter',
+    name: 'Bryon Putterill',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Delhi',
+    currentLocation: 'Pune',
+    openToRelocate: false,
+    yearsOfExperience: 3.5
+  },
+  {
+    name: 'Noemi Stathor',
     designation: 'Associate UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UX'],
-    availability: 92,
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
     baseLocation: 'Hyderabad',
-    currentLocation: null,
     openToRelocate: false,
+    yearsOfExperience: 3.3
   },
   {
-    name: 'Gabby Smewings',
-    designation: 'UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 93,
-    baseLocation: 'Hyderabad',
-    currentLocation: 'Bengaluru',
-    openToRelocate: false,
-  },
-  {
-    name: 'Tamiko Vasnetsov',
-    designation: 'UI Specialist',
-    technologies: ['Angular', 'React'],
-    skills: ['UX'],
-    availability: 94,
-    baseLocation: 'Bengaluru',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Ike Fosberry',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UX'],
-    availability: 95,
-    baseLocation: 'Indore',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Fred Spanswick',
+    name: 'Boyd Hairyes',
     designation: 'Lead UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI', 'UX'],
-    availability: 96,
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Hyderabad',
+    currentLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 3.1
+  },
+  {
+    name: 'Sonny Lydall',
+    designation: 'UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Delhi',
+    openToRelocate: false,
+    yearsOfExperience: 17.4
+  },
+  {
+    name: 'Tabb Pesek',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
     baseLocation: 'Bengaluru',
-    currentLocation: null,
     openToRelocate: false,
+    yearsOfExperience: 13.6
   },
   {
-    name: 'Kellia Bodemeaid',
+    name: 'Torr Manuely',
+    designation: 'UI Specialist',
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Delhi',
+    openToRelocate: true,
+    yearsOfExperience: 4
+  },
+  {
+    name: 'Ardella Ourry',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
+    openToRelocate: false,
+    yearsOfExperience: 14
+  },
+  {
+    name: 'Leese Blowfelde',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Chennai',
+    openToRelocate: false,
+    yearsOfExperience: 3.3
+  },
+  {
+    name: 'Rebecka Kissick',
+    designation: 'UI Specialist',
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Chennai',
+    currentLocation: 'Pune',
+    openToRelocate: true,
+    yearsOfExperience: 4.3
+  },
+  {
+    name: 'Ursala Reap',
     designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'React', 'Vue'],
-    skills: ['UX'],
-    availability: 97,
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 3,
     baseLocation: 'Indore',
-    currentLocation: null,
     openToRelocate: false,
+    yearsOfExperience: 19.8
   },
   {
-    name: 'Rochette Ringer',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UX'],
-    availability: 98,
-    baseLocation: 'Pune',
+    name: 'Cori Frobisher',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Chennai',
     currentLocation: 'Hyderabad',
     openToRelocate: true,
+    yearsOfExperience: 16.1
   },
   {
-    name: 'Tisha Weatherall',
-    designation: 'Senior UI Specialist',
-    technologies: ['Angular', 'Vue'],
-    skills: ['UI'],
-    availability: 99,
-    baseLocation: 'Indore',
-    currentLocation: null,
-    openToRelocate: true,
-  },
-  {
-    name: 'Yovonnda Brittlebank',
+    name: 'Sianna Ramelet',
     designation: 'Lead UI Specialist',
-    technologies: ['Angular'],
-    skills: ['UI'],
-    availability: 100,
-    baseLocation: 'Indore',
-    currentLocation: null,
-    openToRelocate: true,
+    technologies: [
+      'Angular',
+      'React'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
+    openToRelocate: false,
+    yearsOfExperience: 0.4
   },
+  {
+    name: 'Clark Shakspeare',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
+    openToRelocate: true,
+    yearsOfExperience: 14.3
+  },
+  {
+    name: 'Gunar Bortolini',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
+    openToRelocate: true,
+    yearsOfExperience: 0.3
+  },
+  {
+    name: 'Meier Wagenen',
+    designation: 'UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
+    openToRelocate: false,
+    yearsOfExperience: 8.7
+  },
+  {
+    name: 'Harwell Rosendale',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Bengaluru',
+    openToRelocate: false,
+    yearsOfExperience: 2.4
+  },
+  {
+    name: 'Noell Redler',
+    designation: 'UI Specialist',
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Delhi',
+    openToRelocate: false,
+    yearsOfExperience: 9.2
+  },
+  {
+    name: 'Prudence Kestian',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Bengaluru',
+    openToRelocate: false,
+    yearsOfExperience: 5.5
+  },
+  {
+    name: 'Moss Renne',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
+    baseLocation: 'Delhi',
+    openToRelocate: true,
+    yearsOfExperience: 5
+  },
+  {
+    name: 'Jillie Hartington',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Delhi',
+    currentLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 19.8
+  },
+  {
+    name: 'Kilian Langelaan',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular',
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Mumbai',
+    openToRelocate: false,
+    yearsOfExperience: 19.6
+  },
+  {
+    name: 'Mordy Upstone',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Delhi',
+    openToRelocate: false,
+    yearsOfExperience: 0.7
+  },
+  {
+    name: 'Rebekkah Buzek',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI',
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Mumbai',
+    openToRelocate: false,
+    yearsOfExperience: 0.9
+  },
+  {
+    name: 'Carce Cowx',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
+    currentLocation: 'Hyderabad',
+    openToRelocate: false,
+    yearsOfExperience: 9.4
+  },
+  {
+    name: 'Hyacinthia Gryglewski',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 3,
+    baseLocation: 'Indore',
+    currentLocation: 'Chennai',
+    openToRelocate: false,
+    yearsOfExperience: 3.5
+  },
+  {
+    name: 'Fletcher Mouncher',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 3,
+    baseLocation: 'Indore',
+    openToRelocate: true,
+    yearsOfExperience: 9.8
+  },
+  {
+    name: 'See Craighall',
+    designation: 'UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Indore',
+    openToRelocate: true,
+    yearsOfExperience: 15.1
+  },
+  {
+    name: 'Jeannie Giorgini',
+    designation: 'UI Specialist',
+    technologies: [
+      'React',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Hyderabad',
+    currentLocation: 'Pune',
+    openToRelocate: false,
+    yearsOfExperience: 10.8
+  },
+  {
+    name: 'Abey Itscovitz',
+    designation: 'Associate UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
+    baseLocation: 'Gurgaon',
+    openToRelocate: false,
+    yearsOfExperience: 19
+  },
+  {
+    name: 'Harmonie O\'Donnell',
+    designation: 'Senior UI Specialist',
+    technologies: [
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 1,
+    baseLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 8.9
+  },
+  {
+    name: 'Temp Ferrey',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'React'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 1,
+    baseLocation: 'Bengaluru',
+    openToRelocate: false,
+    yearsOfExperience: 14.7
+  },
+  {
+    name: 'Zorah Jacobi',
+    designation: 'Lead UI Specialist',
+    technologies: [
+      'Angular',
+      'Vue'
+    ],
+    skills: [
+      'UX'
+    ],
+    availability: 2,
+    baseLocation: 'Mumbai',
+    openToRelocate: true,
+    yearsOfExperience: 5.9
+  },
+  {
+    name: 'Alexio Rudd',
+    designation: 'UI Specialist',
+    technologies: [
+      'Angular'
+    ],
+    skills: [
+      'UI'
+    ],
+    availability: 2,
+    baseLocation: 'Bengaluru',
+    currentLocation: 'Indore',
+    openToRelocate: false,
+    yearsOfExperience: 18.9
+  }
 ];
 
 export const allLocations = [

@@ -1,0 +1,59 @@
+<div class="mpl-c-employee-details__header">
+  <h2 mat-dialog-title>Employee Details</h2>
+  <mat-dialog-actions align="center" class="pt-0">
+    <button mat-button mat-dialog-close cdkFocusInitial>
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-dialog-actions>
+</div>
+<mat-dialog-content class="mat-typography">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="mpl-c-employee-details__content-heading">Name</div>
+        <div class="mb-3">{{ employeeData.name }}</div>
+
+        <div class="mpl-c-employee-details__content-heading">Designation</div>
+        <div class="mb-3">{{ employeeData.designation }}</div>
+
+        <div class="mpl-c-employee-details__content-heading">Technologies</div>
+        <div class="mb-3">{{ employeeData.technologies.join(",") }}</div>
+      </div>
+      <div class="col">
+        <div class="mpl-c-employee-details__content-heading">Skill</div>
+        <div class="mb-3">{{ employeeData.skills.join(",") }}</div>
+
+        <div class="mpl-c-employee-details__content-heading">Availability</div>
+        <div class="mb-3">{{ employeeData.availability }}</div>
+
+        <div class="mpl-c-employee-details__content-heading">Base Location</div>
+        <div class="mb-3">
+          {{ employeeData.baseLocation
+          }}<span *ngIf="employeeData.currentLocation"
+            >/{{ employeeData.currentLocation }}</span
+          >
+        </div>
+      </div>
+      <div class="col">
+        <div class="mpl-c-employee-details__content-heading">
+          Open to Relocate
+        </div>
+        <div>{{ employeeData.openToRelocate ? "Yes" : "No" }}</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="mpl-c-employee-details__content-heading">Message</div>
+        <textarea rows="6" class="w-100"></textarea>
+      </div>
+    </div>
+  </div>
+  <!-- </p> -->
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-flat-button mat-dialog-close>Cancel</button>
+  <button mat-flat-button color="primary" [mat-dialog-close]="true">
+    Done
+  </button>
+</mat-dialog-actions>

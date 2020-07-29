@@ -42,5 +42,9 @@ export class EmployeeFilterComponent implements OnInit {
     this.selectedEmployeeFilterCriteria.maxExperience = $event.to;
   }
 
-  filterEmployees() {}
+  filterEmployees() {
+    this.employeeFilterService.updateEmployeeFilterCriteria(
+      this.selectedEmployeeFilterCriteria
+    );
+  }
 }

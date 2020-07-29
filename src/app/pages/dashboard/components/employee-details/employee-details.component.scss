@@ -1,0 +1,10 @@
+.mpl-c-employee-details {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__content-heading {
+    font-size: 12px;
+  }
+}

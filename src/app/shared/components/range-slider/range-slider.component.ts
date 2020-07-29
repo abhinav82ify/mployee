@@ -18,7 +18,7 @@ export class RangeSliderComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.minValue = 1;
+    this.minValue = this.min;
     this.maxValue = this.max;
   }
 
